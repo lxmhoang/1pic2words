@@ -67,6 +67,10 @@
 - (void)createNavigationBar
 {
     UINavigationBar *naviBar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, kHeightOfNavigationBar)];
+    
+    
+    [naviBar setBarTintColor:[UIColor brownColor]];
+    
      
     UINavigationItem *navItem = [UINavigationItem alloc];
     navItem.title = @"";

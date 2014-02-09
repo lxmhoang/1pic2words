@@ -151,6 +151,7 @@
 {
     UINavigationBar *naviBar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, kHeightOfNavigationBar)];
     
+    [naviBar setBarTintColor:[UIColor brownColor]];
     UINavigationItem *navItem = [UINavigationItem alloc];
 //    navItem.title = @"Play";
    
@@ -162,7 +163,8 @@
 
 //    UIBarButtonItem *cancelBtn = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"arrow_left.png"] style:UIBarButtonItemStyleDone target:delegate action:@selector(dismiss)];
     UIBarButtonItem *cancelBtn = [[UIBarButtonItem alloc]initWithTitle:@"Back" style:UIBarButtonSystemItemCancel target:delegate action:@selector(dismiss)];
-
+    
+    [cancelBtn setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIColor yellowColor], UITextAttributeTextColor,nil] forState:UIControlStateNormal];
 //    UIBarButtonItem *cancelBtn = [[UIBarButtonItem alloc]initWithCustomView:btn];
     
     //    [cancelBtn setBackgroundImage:[UIImage imageNamed:@"Menu.png"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];

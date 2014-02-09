@@ -544,6 +544,7 @@
         }
         else{
             [lb setTag:count];
+            [lb setBackgroundColor:[UIColor whiteColor]];
             [lb setUserInteractionEnabled:YES];
             UITapGestureRecognizer *_tapLB = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(setFocus:)];
             [lb addGestureRecognizer:_tapLB];
@@ -581,6 +582,8 @@
             rightgraycount++;
         }else{
             [lb setTag:count];
+            
+            [lb setBackgroundColor:[UIColor whiteColor]];
             count++;
             [lb setUserInteractionEnabled:YES];
             UITapGestureRecognizer *_tapLB = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(setFocus:)];

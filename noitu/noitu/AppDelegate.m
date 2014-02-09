@@ -45,6 +45,12 @@
 //    
 //
     
+    NSDictionary* textAttributes = [NSDictionary dictionaryWithObject: [UIColor blueColor]
+                                                               forKey: UITextAttributeTextColor];
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes: textAttributes
+                                                forState: UIControlStateNormal];
+    
     [[UINavigationBar appearance] setBackgroundColor:[UIColor colorWithRed:34.0/255.0 green:117.0/225.0 blue:185.0/255.0 alpha:1.0]];
     
     // Customize the title text for *all* UINavigationBars
@@ -57,8 +63,10 @@
       [NSValue valueWithUIOffset:UIOffsetMake(0, -1)],
       UITextAttributeTextShadowOffset,
       [UIFont fontWithName:@"Arial-Bold" size:0.0],
-      UITextAttributeFont, 
+      UITextAttributeFont,
       nil]];
+    
+    
     
 }
 
@@ -381,7 +389,7 @@ withString:@""];
 //	splash.frame = self.window.bounds;
 	[self.window addSubview:splash];
     
-    [UIView animateWithDuration:3.0 animations:^{
+    [UIView animateWithDuration:1.0 animations:^{
         splash.alpha = 0;
             }completion:^(BOOL finished) {
 //                AudioServicesDisposeSystemSoundID(audioEffect);
