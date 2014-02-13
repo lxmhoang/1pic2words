@@ -329,6 +329,10 @@
 		37CB7ACF173228C200811989 /* WinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB7ACE173228C200811989 /* WinView.m */; };
 		37CB7AD31732705600811989 /* 100coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CB7AD21732705500811989 /* 100coins.png */; };
 		37CB7AD5173270D300811989 /* 100coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CB7AD4173270D300811989 /* 100coin.png */; };
+		A47741C218ACA16200D51AB9 /* icon2-120.png in Resources */ = {isa = PBXBuildFile; fileRef = A47741C118ACA16200D51AB9 /* icon2-120.png */; };
+		A47741C418ACA1F200D51AB9 /* icon2-29.png in Resources */ = {isa = PBXBuildFile; fileRef = A47741C318ACA1F200D51AB9 /* icon2-29.png */; };
+		A47741C618ACA1FC00D51AB9 /* icon2-58.png in Resources */ = {isa = PBXBuildFile; fileRef = A47741C518ACA1FC00D51AB9 /* icon2-58.png */; };
+		A47741C818ACA20100D51AB9 /* icon2-80.png in Resources */ = {isa = PBXBuildFile; fileRef = A47741C718ACA20100D51AB9 /* icon2-80.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -743,6 +747,10 @@
 		37CB7ACE173228C200811989 /* WinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinView.m; sourceTree = "<group>"; };
 		37CB7AD21732705500811989 /* 100coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100coins.png; sourceTree = "<group>"; };
 		37CB7AD4173270D300811989 /* 100coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100coin.png; sourceTree = "<group>"; };
+		A47741C118ACA16200D51AB9 /* icon2-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2-120.png"; sourceTree = "<group>"; };
+		A47741C318ACA1F200D51AB9 /* icon2-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2-29.png"; sourceTree = "<group>"; };
+		A47741C518ACA1FC00D51AB9 /* icon2-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2-58.png"; sourceTree = "<group>"; };
+		A47741C718ACA20100D51AB9 /* icon2-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2-80.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -867,6 +875,10 @@
 		3748260B16F96DCB00932715 = {
 			isa = PBXGroup;
 			children = (
+				A47741C718ACA20100D51AB9 /* icon2-80.png */,
+				A47741C518ACA1FC00D51AB9 /* icon2-58.png */,
+				A47741C318ACA1F200D51AB9 /* icon2-29.png */,
+				A47741C118ACA16200D51AB9 /* icon2-120.png */,
 				379C8775176EADF0005E6B52 /* iAd.framework */,
 				379B072117277D1C0054D2F7 /* icon2-57.png */,
 				379B071F17277D150054D2F7 /* icon2-114.png */,
@@ -1582,6 +1594,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Hoang le";
+				TargetAttributes = {
+					3748261516F96DCB00932715 = {
+						DevelopmentTeam = TMD3Y97MSH;
+					};
+				};
 			};
 			buildConfigurationList = 3748261016F96DCB00932715 /* Build configuration list for PBXProject "1word2pics" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1642,6 +1659,7 @@
 				37A3A6A517018D9A00F8BD7C /* lbbg.png in Resources */,
 				3768A76A1703E2B0006A0611 /* star.png in Resources */,
 				3742942517045DDD0098ADBF /* coins.png in Resources */,
+				A47741C618ACA1FC00D51AB9 /* icon2-58.png in Resources */,
 				37BD6019170476FD00A3B74E /* apple-touch-icon-precomposed.png in Resources */,
 				37BD601B1704770000A3B74E /* apple-touch-icon-114x114-precomposed.png in Resources */,
 				37A7C14B1708859A00C62ED2 /* background.png in Resources */,
@@ -1660,6 +1678,7 @@
 				37A3AF791726A9C200CB928B /* musical_synth_vox_happy_crescendo.mp3 in Resources */,
 				379B072017277D150054D2F7 /* icon2-114.png in Resources */,
 				379B072217277D1C0054D2F7 /* icon2-57.png in Resources */,
+				A47741C218ACA16200D51AB9 /* icon2-120.png in Resources */,
 				379C2736172A7DAC00E86182 /* gtk-cancel.png in Resources */,
 				37CB7AD31732705600811989 /* 100coins.png in Resources */,
 				37CB7AD5173270D300811989 /* 100coin.png in Resources */,
@@ -1691,6 +1710,7 @@
 				37AB02D51745D78100FE2A63 /* beret.jpg in Resources */,
 				37AB02D61745D78100FE2A63 /* beverage.jpg in Resources */,
 				37AB02D71745D78100FE2A63 /* black.jpg in Resources */,
+				A47741C818ACA20100D51AB9 /* icon2-80.png in Resources */,
 				37AB02D81745D78100FE2A63 /* boat.jpg in Resources */,
 				37AB02D91745D78100FE2A63 /* boot.jpg in Resources */,
 				37AB02DA1745D78100FE2A63 /* box.jpg in Resources */,
@@ -1711,6 +1731,7 @@
 				37AB02E91745D78100FE2A63 /* cinema.jpg in Resources */,
 				37AB02EA1745D78100FE2A63 /* climb.jpg in Resources */,
 				37AB02EB1745D78100FE2A63 /* clock.jpg in Resources */,
+				A47741C418ACA1F200D51AB9 /* icon2-29.png in Resources */,
 				37AB02EC1745D78100FE2A63 /* clothes.jpg in Resources */,
 				37AB02ED1745D78100FE2A63 /* coat.jpg in Resources */,
 				37AB02EE1745D78100FE2A63 /* coin.jpg in Resources */,
@@ -2059,15 +2080,15 @@
 		3748263A16F96DCB00932715 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hoang Le (44T52VC842)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hoang Le (44T52VC842)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: LE HOANG (TMD3Y97MSH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LE HOANG (TMD3Y97MSH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "noitu/1word2pics-Prefix.pch";
 				INFOPLIST_FILE = "noitu/1word2pics-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = 1word2pics;
-				PROVISIONING_PROFILE = "2A7CC2BC-1799-4734-983D-3B81FE9C94D6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A7CC2BC-1799-4734-983D-3B81FE9C94D6";
+				PROVISIONING_PROFILE = "4EBD209D-3B70-4AD5-8302-98302D561552";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4EBD209D-3B70-4AD5-8302-98302D561552";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2076,15 +2097,15 @@
 		3748263B16F96DCB00932715 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: LE HOANG";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LE HOANG";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: LE HOANG (TMD3Y97MSH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LE HOANG (TMD3Y97MSH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "noitu/1word2pics-Prefix.pch";
 				INFOPLIST_FILE = "noitu/1word2pics-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = 1word2pics;
-				PROVISIONING_PROFILE = "2A7CC2BC-1799-4734-983D-3B81FE9C94D6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A7CC2BC-1799-4734-983D-3B81FE9C94D6";
+				PROVISIONING_PROFILE = "4EBD209D-3B70-4AD5-8302-98302D561552";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4EBD209D-3B70-4AD5-8302-98302D561552";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

@@ -293,10 +293,10 @@ withString:@""];
 
     [Appirater setAppId:@"627264994"];
     [Appirater setDaysUntilPrompt:1];
-    [Appirater setUsesUntilPrompt:5];
+    [Appirater setUsesUntilPrompt:10];
     [Appirater setSignificantEventsUntilPrompt:-1];
     [Appirater setTimeBeforeReminding:2];
-    [Appirater setDebug:YES];
+    [Appirater setDebug:NO];
     
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
      (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
